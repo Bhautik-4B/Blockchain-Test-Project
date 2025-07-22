@@ -1,0 +1,2 @@
+# This file ensures the public directory is included in git
+# The contract-address.json file will be auto-generated when the contract is deployed 

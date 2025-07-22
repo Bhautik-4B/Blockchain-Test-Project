@@ -1,0 +1,47 @@
+{
+  "name": "blockchain-test-project",
+  "version": "1.0.0",
+  "description": "Blockchain project with MetaMask integration and Web3 functionality",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy-deterministic.js --network localhost"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
+    "autoprefixer": "^10.4.16",
+    "ethers": "^6.8.0",
+    "next": "^14.0.0",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "web3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "^14.0.0",
+    "hardhat": "^2.17.0",
+    "typescript": "^5.2.0"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "metamask",
+    "web3",
+    "react",
+    "nextjs"
+  ],
+  "author": "Blockchain Developer",
+  "license": "MIT"
+}
